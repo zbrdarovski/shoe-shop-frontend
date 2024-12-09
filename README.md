@@ -40,4 +40,5 @@ Release:
 
 This project is not licensed for public use. The code is protected by copyright law.  
 Viewing is permitted for evaluation purposes only. Copying, modifying, or distributing the code is strictly prohibited.
+
 Copyright (c) 2024 Zdravko Brdarovski and [Anton's GitHub](https://github.com/Tonskii)
