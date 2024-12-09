@@ -1,0 +1,18 @@
+﻿.remove-button button {
+    background-color: #dc3545;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+    .remove-button button:hover {
+        background-color: #bd2130;
+    }
+
+.add-button button {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.list {
+    border: 1px solid #ccc;
+}

@@ -1,0 +1,41 @@
+﻿.preview-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Set text-align to left for the container */
+    /* Center vertically using absolute positioning and translation */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.preview-container p {
+    text-align: left;
+}
+
+.preview-container h2 {
+    text-align: center;
+}
+
+.preview-container ul {
+    padding: 10px;
+}
+
+.deliveryItem {
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+    .deliveryItem p {
+        margin: 0; /* Remove default margin for paragraphs inside li */
+    }

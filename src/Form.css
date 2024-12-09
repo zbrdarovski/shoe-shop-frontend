@@ -1,0 +1,83 @@
+﻿/* Form.css */
+/* Style for the entire page */
+body {
+    background-color: #000;
+}
+
+/* Style for the login container */
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Set text-align to left for the container */
+    /* Center vertically using absolute positioning and translation */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Style for the heading inside the container */
+h2 {
+    font-size: 1.5rem;
+}
+
+/* Style for the input fields */
+input {
+    width: 100%; /* Adjust width to your preference */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+/* Style for the login button */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+    /* Style for the login button on hover */
+    button:hover {
+        background-color: #0056b3;
+    }
+
+/* Style for the p element inside the container */
+.container p {
+    font-size: 0.75rem;
+    text-align: right;
+    margin-right: 5px;
+}
+
+/* Center text-align for other elements inside the container */
+.container h2 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+.container input {
+    text-align: center;
+}
+
+.container button {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.error {
+    color: red;
+    font-size: 12px; /* Adjust the font size as needed */
+    margin-top: 4px; /* Add some space above the error message */
+}

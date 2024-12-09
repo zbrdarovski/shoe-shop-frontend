@@ -1,0 +1,86 @@
+/* Shop.css */
+
+.Shop {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    margin-left: 150px;
+}
+
+.catalog {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+.list {
+    margin-bottom: 15px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.remove-button button,
+.add-button button,
+.checkout-button button {
+    width: 70px; /* Smaller width */
+    height: 28px; /* Smaller height */
+    font-size: 12px; /* Smaller font size */
+    padding: 4px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 0; /* Reduced margin */
+}
+
+.remove-button button {
+    background-color: #dc3545;
+}
+
+.remove-button button:hover {
+    background-color: #bd2130;
+}
+
+.add-button button {
+    background-color: #007bff;
+}
+
+.add-button button:hover {
+    background-color: #0056b3;
+}
+
+.checkout-button button {
+    background-color: #5f9975;
+}
+
+.checkout-button button:hover {
+    background-color: #5f8575;
+}
+
+.empty-cart-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+textarea {
+    width: calc(100% - 20px); /* Full width minus margins */
+    max-width: 100%; /* Ensures it doesn’t exceed container width */
+    min-height: 80px; /* Increased height for more content */
+    max-height: 150px; /* Height limit to accommodate enough text */
+    resize: none; /* Prevent resizing */
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px auto; /* Center with equal margins on both sides */
+}
+
+textarea::placeholder {
+    color: #999;
+}

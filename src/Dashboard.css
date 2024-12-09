@@ -1,0 +1,25 @@
+/* Style for the container */
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #0077ff;
+    width: fit-content;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0px;
+}
+  
+  /* Style for the buttons */
+  .dashboard button {
+    margin: 5px;
+    padding: 15px 20px; 
+    background-color: #0077ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-align: center; 
+    width: 100px;
+  }
+  

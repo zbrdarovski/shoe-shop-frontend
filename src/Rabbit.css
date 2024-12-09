@@ -1,0 +1,53 @@
+.Rabbit {
+    text-align: center;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr; /* Single column layout */
+    gap: 20px; /* Gap between grid items */
+}
+    .Rabbit div {
+        margin-top: 20px;
+    }
+
+    .Rabbit label {
+        margin-right: 5px;
+    }
+
+.preview-container {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+    .preview-container p {
+        text-align: left;
+    }
+
+    .preview-container h2 {
+        text-align: center;
+    }
+
+    .preview-container ul {
+        padding: 10px;
+        margin: 0; /* Remove default margin for ul */
+        max-height: 200px; /* Set maximum height */
+        overflow-y: auto; /* Enable vertical scrollbar */
+    }
+
+.logItem {
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+    .logItem p {
+        margin: 0;
+    }
